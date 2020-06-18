@@ -25,5 +25,5 @@ app.use('/api/tareas',require('./routes/tareas'));
 
 //inicia app
 app.listen(port, '0.0.0.0', () =>{
-    console.log("arranco el server en ${PORT}");
+    console.log("arranco el server");
 });
